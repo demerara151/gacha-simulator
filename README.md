@@ -1,6 +1,6 @@
 # gacha-simulator
 
-Rolling 1billion times in 730ms. It shows you how many times you've got *4 and *5.
+Rolling 100 million times in 730ms. It shows you how many times you've got *4 and *5.
 
 Rewrite python code in Rust.
 

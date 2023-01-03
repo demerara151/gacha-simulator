@@ -6,6 +6,11 @@ Rewrite python code in Rust.
 
 Original source code: <https://teratail.com/questions/d8x5mdtuhzp0iz>
 
+## TODO
+
+-   [ ] Separate `main.rs` into `main.rs` and `lib.rs`.
+-   [ ] Write build instruction here.
+
 ## Installation
 
 Download binary from release page.
@@ -13,9 +18,9 @@ Download binary from release page.
 ## Usage
 
 ```
-gacha-simulator.exe
-You've got *5 x1599990
-You've got *4 x12999039
+$ gacha-simulator.exe
+> You've got *5 x1599990
+> You've got *4 x12999039
 ```
 
 ## LICENSE

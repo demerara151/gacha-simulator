@@ -10,17 +10,17 @@ pub const RATE_5_UP: f64 = 0.324;
 
 pub struct Wish {
     // 引いた回数
-    pub draw_count_5: i32,
-    pub draw_count_4: i32,
+    pub draw_count_5: u32,
+    pub draw_count_4: u32,
 
     // 可変レート
     pub variable_rate_5: f64,
     pub variable_rate_4: f64,
 
     // 結果
-    pub result_count_5: i32,
-    pub result_count_4: i32,
-    pub result_count_3: i32,
+    pub result_count_5: u32,
+    pub result_count_4: u32,
+    pub result_count_3: u32,
 }
 
 impl Wish {

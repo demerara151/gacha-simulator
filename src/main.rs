@@ -11,7 +11,7 @@ fn main() {
         result_count_3: 0,
     };
 
-    for _ in 1..100_000_000 {
+    for _ in 1..=100_000_000 {
         wish.wish();
     }
 

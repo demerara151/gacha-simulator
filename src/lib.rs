@@ -24,7 +24,7 @@ pub struct Wish {
 }
 
 impl Wish {
-    /// 引いた回数によって可変レートの値を決める                                                                                                              
+    /// 引いた回数によって可変レートの値を決める
     pub fn wish(&mut self) {
         self.get_rarity();
 
@@ -51,7 +51,7 @@ impl Wish {
         }
     }
 
-    /// 乱数に応じて結果を算出し、引いた回数をリセット                                                                                                        
+    /// 乱数に応じて結果を算出し、引いた回数をリセット
     fn get_rarity(&mut self) {
         let random_number: f64 = rand::thread_rng().gen();
 
